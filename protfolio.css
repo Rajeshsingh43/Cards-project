@@ -1,0 +1,243 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.space {
+    height: 2000px;
+    background: ivory;
+    padding-top: 50px;
+  }
+   body {
+    background-color: white;
+  }
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  li {
+    list-style: none;
+  }
+  .button {
+    position: relative;
+    display: flex;
+    border:solid 0.5px ivory;
+    border-radius: 10px;
+    transition: all .3s;
+    margin-inline: auto;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: transparent;
+  }
+  .button:hover {
+    box-shadow: 3px 3px 0 rgba($color: black, $alpha: 0.8);
+  }
+  .button__link{
+    border-color: black;
+    display: block;
+    width: inherit;
+    height: inherit;
+    font size: 18px;
+    font-weight: 400;
+    color: black;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    }
+  }
+  
+  
+ 
+  /* .header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  } */
+  .header.change-color {
+    background-color: black;
+  }
+  .header__inner {
+    max-width: 1440px;
+    height: 95px;
+    padding-inline: 20px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+  }
+  
+   .nav__items {
+    display: flex;
+    justify-content: space-between;
+  } 
+  .nav__item:not(:first-child) {
+    margin-left: 36px;
+  }
+  .nav__link {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: medium;
+    color: black;
+  }
+  .header__button .button {
+    width: 122px;
+    height: 46px;
+    line-height: 5px;
+  }
+
+.header{
+    
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid black; */
+
+  }
+  .flex-1{
+    display: flex;
+  }
+  .col-1{
+    background-color: #fff;
+    margin-top: 2.5rem;
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 50%;
+    h3{
+        margin-left: 10rem;
+        font-size: 45px;
+        font-weight: bold;
+    
+    }
+    p{
+        margin-left: -1rem;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+  }
+  .col-2{
+    margin-top: 2.4rem;
+    /* border: 1px solid black; */
+    height: 134vh;
+    width: 50%;
+    background-image: url('https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvfGVufDB8fDB8fHww');
+    background-size: 100% 100%;
+  }
+  .text{
+    p{
+        color: #096b79;
+        margin-left: 8rem;
+        margin-top: 8rem;
+        font-size:30px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+  }
+  .inp{
+    margin-top: 28rem;
+    margin-left: 12rem;
+    input{
+        padding: 15px 20px;
+    }
+
+  }
+.btn{
+    padding: 10px;
+  }
+  .col-btn{
+    margin-left: 10rem;
+    button{
+        padding: 13px 20px;
+        border: none;
+    }
+    #btn1{
+        margin-top: 7rem;
+        background-color: orangered;
+        border: none;
+        border-radius: 2px;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+  }
+  .footer{
+    margin-top: 70px;
+    /* border: 2px solid red; */
+    /* padding-bottom: 80px; */
+    background-color: black;
+    h2{
+      text-align: start;
+    margin-top: 5rem;
+    margin-bottom: 25px;
+    margin-left: 5rem;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 35px;
+    color: white;
+    }
+    .knowmore{
+      margin-bottom: 22px;
+        margin-left: 5rem;
+        padding: 5px 15px;
+        background-color: rgb(238, 187, 58);
+        border: none;
+        }
+    }
+    .words{
+    
+        color: white;
+        margin-top: -9rem;
+        margin-left: 19rem;
+        line-height: 40px;
+        p{
+           
+            font-size: 15px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+    }
+   .body{
+    height: 100vh;
+    width: 100vw;
+   }
+   .count{
+    margin-left: 12rem;
+    line-height: 20px;
+    p{
+      line-height: 25px;
+      margin-top: 30px;
+      font-size: 15px;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+    
+   }
+   h4{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 11rem;
+    line-height: 2rem;
+    margin-top: 12px;
+}
+h5{
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 23rem;
+  line-height: 2rem;
+  margin-top: -4rem;
+}
+.text-1{
+  margin-top: 3rem;
+  p{
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+}
+
+
+  
+  
+  
